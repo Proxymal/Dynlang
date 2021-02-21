@@ -20,3 +20,17 @@ main() {
    print(`Hello, Dynlang! ${(string)a}`);
 } 
 ```
+Showcase of object-oriented programming:
+```csharp
+class Car {
+   public int price;
+   ctor(int price) {
+      this.price = price
+   } 
+}
+
+main() {
+   var car = new Car(1000);
+   print(car.price);
+} 
+```

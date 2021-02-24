@@ -13,7 +13,8 @@ print(arr[0] + arr[1]);
 ```
 Showcase of type-casting and string interpolation:
 ```js
-int a = 1000;
+var a = 1000;
+var b = a * 15;
 print(`Hello, Dynlang! ${a}`);
 ```
 Showcase of object-oriented programming:

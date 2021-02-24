@@ -8,17 +8,13 @@ int modifyValues(int a, int b) {
    return [ ((250 * a) / b) + 1050, a % b + 100 - 20];
 } 
 
-main() {
-   var arr = modifyValues(1000, 25);
-   print(arr[0] + arr[1]);
-} 
+var arr = modifyValues(1000, 25);
+print(arr[0] + arr[1]);
 ```
 Showcase of type-casting and string interpolation:
 ```csharp
-main() {
-   int a = 1000;
-   print(`Hello, Dynlang! ${(string)a}`);
-} 
+int a = 1000;
+print(`Hello, Dynlang! ${(string)a}`);
 ```
 Showcase of object-oriented programming:
 ```csharp
@@ -29,8 +25,7 @@ class Car {
    } 
 }
 
-main() {
-   var car = new Car(1000);
-   print(car.price);
-} 
+
+var car = new Car(1000);
+print(car.price);
 ```

@@ -4,7 +4,7 @@ Dynlang is dynamic static-typed interpreted programming language for everything.
 # Syntax
 Basic showcase:
 ```csharp
-int modifyValues(int a, int b) {
+array modifyValues(int a, int b) {
    return [ ((250 * a) / b) + 1050, a % b + 100 - 20 ];
 } 
 
